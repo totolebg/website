@@ -1,0 +1,73 @@
+/*
+
+css pour le body
+
+*/
+
+.presentation{
+    border-top:5px solid rgb(216, 30, 30);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgba(0,0,0,0.815);
+    padding-bottom: 20px;
+}
+
+.titre h1{
+    color:rgb(216, 30, 30);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.contenu{
+    color: white;
+}
+
+/* stats */
+.stats{
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid rgb(216, 30, 30);
+    width: 87%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.815);
+    font-family: 'Signika Negative', sans-serif;
+    padding: 30px;
+    color: white
+}
+
+/*RESEAUX*/
+.reseaux{
+    border-top: 5px solid rgb(216, 30, 30);
+    width: 87%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.815);
+    font-family: 'Signika Negative', sans-serif;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.contenue{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.reseaux i{
+    color: white;
+    font-size: 55px;
+}
+
+.reseaux i:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    color:rgb(216, 30, 30)
+}
+
+.reseaux figcaption{
+    padding-top: 10px;
+    color: white;
+    font-size: x-large;
+}
